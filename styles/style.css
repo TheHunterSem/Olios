@@ -50,15 +50,32 @@ body{
 .icon-accesories:before { content: '\e819'; } /* '' */
 .icon-menu:before { content: '\f008'; } /* '' */
 
-.container{
+/*.container{
 	max-width: 1140px;
 	width: 100%;
 	margin: 0 auto;
     padding: 0;
-}
+}*/
 
 .clearfix::after {
     content: '';
     display: table;
     clear: both;
+}
+
+
+
+/*----------------MAIN SCREEN----------------*/
+.main-screen{
+	/*background: url('../images/main-screen.jpg')no-repeat center center fixed;*/
+	/*max-height: 400px;*/
+	/*max-width: 400px;*/
+	/*width: 100%;*/
+}
+
+.main-screen-bg img{
+	max-height: 100vh;
+	/*max-width: 100vw;*/
+	width: 100%;
+	/*height: 100%;*/
 }
