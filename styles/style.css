@@ -134,11 +134,51 @@ body{
 	border-radius: 20px;
 	text-transform: uppercase;
 	padding: 8px 15px;
-	transition: .2s ease-in;
+	transition: .3s ease-in;
 	border: 1px solid #0023ff;
 }
 
 .main-slider-content-link:hover{
 	color: #0023ff;
 	background-color: transparent;
+}
+
+
+
+/*----------------LEFT MENU----------------*/
+.main-left-menu{
+	position: absolute;
+	content: '';
+	height: 100%;
+	top:0;
+	left: 0;
+	background-color: #fff;
+	text-align: center;
+}
+
+.left-menu{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.left-menu li a{
+	display: inline-block;
+	color: #d8d8d8;
+	margin: 42px 0;
+	font-size: 18px;
+	transition: .5s;
+}
+
+.left-menu li a:hover{
+	color: #0023ff;
+}
+
+.left-menu li:first-child a{
+	margin: 33px 40px 108px 40px;
+	transition: .5s ease-out;
+}
+
+.left-menu li:first-child a:hover{
+	transform: rotate(360deg);
 }
